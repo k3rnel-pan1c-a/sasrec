@@ -1,0 +1,21 @@
+{
+  "n_items": 8363,
+  "n_sessions": {
+    "train": 94997,
+    "valid": 5277,
+    "test": 5278
+  },
+  "n_clicks": {
+    "train": 402423,
+    "valid": 23063,
+    "test": 26398
+  },
+  "config": {
+    "recent_fraction": 0.015625,
+    "min_session_length": 2,
+    "min_item_support": 5,
+    "test_quantile": 0.05,
+    "valid_quantile": 0.05,
+    "max_seq_len": 50
+  }
+}

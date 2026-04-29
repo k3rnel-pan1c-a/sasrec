@@ -1,0 +1,34 @@
+{
+  "n_clicks": 33003944,
+  "n_sessions": 9249729,
+  "n_unique_items": 52739,
+  "n_unique_categories": 339,
+  "time_range": {
+    "start": "2014-04-01",
+    "end": "2014-09-30"
+  },
+  "session_length": {
+    "mean": 3.568098481587947,
+    "median": 2.0,
+    "p95": 9.0,
+    "p99": 18.0,
+    "max": 200,
+    "frac_len_ge_2": 0.8638110370584912,
+    "frac_len_ge_5": 0.20353936855879778
+  },
+  "item_popularity": {
+    "mean_clicks": 625.7976829291416,
+    "median_clicks": 22.0,
+    "max_clicks": 147419,
+    "frac_items_with_lt_5_clicks": 0.28015320730389276,
+    "top20pct_click_share": 0.9418604637070043
+  },
+  "plots": {
+    "session_length_hist": "/kaggle/working/outputs/eda/session_length_hist.png",
+    "item_popularity_loglog": "/kaggle/working/outputs/eda/item_popularity_loglog.png",
+    "daily_clicks": "/kaggle/working/outputs/eda/daily_clicks.png",
+    "hourly_clicks": "/kaggle/working/outputs/eda/hourly_clicks.png",
+    "weekday_clicks": "/kaggle/working/outputs/eda/weekday_clicks.png",
+    "category_pie": "/kaggle/working/outputs/eda/category_pie.png"
+  }
+}
